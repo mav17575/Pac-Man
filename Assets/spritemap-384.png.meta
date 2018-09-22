@@ -1,0 +1,2648 @@
+fileFormatVersion: 2
+guid: c0db99533a77ad4499e42b33aec1cba9
+timeCreated: 1537468570
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritemap-384_0
+    21300002: spritemap-384_1
+    21300004: spritemap-384_2
+    21300006: spritemap-384_3
+    21300008: spritemap-384_4
+    21300010: spritemap-384_5
+    21300012: spritemap-384_6
+    21300014: spritemap-384_7
+    21300016: spritemap-384_8
+    21300018: spritemap-384_9
+    21300020: spritemap-384_10
+    21300022: spritemap-384_11
+    21300024: spritemap-384_12
+    21300026: spritemap-384_13
+    21300028: spritemap-384_14
+    21300030: spritemap-384_15
+    21300032: spritemap-384_16
+    21300034: spritemap-384_17
+    21300036: spritemap-384_18
+    21300038: spritemap-384_19
+    21300040: spritemap-384_20
+    21300042: spritemap-384_21
+    21300044: spritemap-384_22
+    21300046: spritemap-384_23
+    21300048: spritemap-384_24
+    21300050: spritemap-384_25
+    21300052: spritemap-384_26
+    21300054: spritemap-384_27
+    21300056: spritemap-384_28
+    21300058: spritemap-384_29
+    21300060: spritemap-384_30
+    21300062: spritemap-384_31
+    21300064: spritemap-384_32
+    21300066: spritemap-384_33
+    21300068: spritemap-384_34
+    21300070: spritemap-384_35
+    21300072: spritemap-384_36
+    21300074: spritemap-384_37
+    21300076: spritemap-384_38
+    21300078: spritemap-384_39
+    21300080: spritemap-384_40
+    21300082: spritemap-384_41
+    21300084: spritemap-384_42
+    21300086: spritemap-384_43
+    21300088: spritemap-384_44
+    21300090: spritemap-384_45
+    21300092: spritemap-384_46
+    21300094: spritemap-384_47
+    21300096: spritemap-384_48
+    21300098: spritemap-384_49
+    21300100: spritemap-384_50
+    21300102: spritemap-384_51
+    21300104: spritemap-384_52
+    21300106: spritemap-384_53
+    21300108: spritemap-384_54
+    21300110: spritemap-384_55
+    21300112: spritemap-384_56
+    21300114: spritemap-384_57
+    21300116: spritemap-384_58
+    21300118: spritemap-384_59
+    21300120: spritemap-384_60
+    21300122: spritemap-384_61
+    21300124: spritemap-384_62
+    21300126: spritemap-384_63
+    21300128: spritemap-384_64
+    21300130: spritemap-384_65
+    21300132: spritemap-384_66
+    21300134: spritemap-384_67
+    21300136: spritemap-384_68
+    21300138: spritemap-384_69
+    21300140: spritemap-384_70
+    21300142: spritemap-384_71
+    21300144: spritemap-384_72
+    21300146: spritemap-384_73
+    21300148: spritemap-384_74
+    21300150: spritemap-384_75
+    21300152: spritemap-384_76
+    21300154: spritemap-384_77
+    21300156: spritemap-384_78
+    21300158: spritemap-384_79
+    21300160: spritemap-384_80
+    21300162: spritemap-384_81
+    21300164: spritemap-384_82
+    21300166: spritemap-384_83
+    21300168: spritemap-384_84
+    21300170: spritemap-384_85
+    21300172: spritemap-384_86
+    21300174: spritemap-384_87
+    21300176: spritemap-384_88
+    21300178: spritemap-384_89
+    21300180: spritemap-384_90
+    21300182: spritemap-384_91
+    21300184: spritemap-384_92
+    21300186: spritemap-384_93
+    21300188: spritemap-384_94
+    21300190: spritemap-384_95
+    21300192: spritemap-384_96
+    21300194: spritemap-384_97
+    21300196: spritemap-384_98
+    21300198: spritemap-384_99
+    21300200: spritemap-384_100
+    21300202: spritemap-384_101
+    21300204: spritemap-384_102
+    21300206: spritemap-384_103
+    21300208: spritemap-384_104
+    21300210: spritemap-384_105
+    21300212: spritemap-384_106
+    21300214: spritemap-384_107
+    21300216: spritemap-384_108
+    21300218: spritemap-384_109
+    21300220: spritemap-384_110
+    21300222: spritemap-384_111
+    21300224: spritemap-384_112
+    21300226: spritemap-384_113
+    21300228: spritemap-384_114
+    21300230: spritemap-384_115
+    21300232: spritemap-384_116
+    21300234: spritemap-384_117
+    21300236: spritemap-384_118
+    21300238: spritemap-384_119
+    21300240: spritemap-384_120
+    21300242: spritemap-384_121
+    21300244: spritemap-384_122
+    21300246: spritemap-384_123
+    21300248: spritemap-384_124
+    21300250: spritemap-384_125
+    21300252: spritemap-384_126
+    21300254: spritemap-384_127
+    21300256: spritemap-384_128
+    21300258: spritemap-384_129
+    21300260: spritemap-384_130
+    21300262: spritemap-384_131
+    21300264: spritemap-384_132
+    21300266: spritemap-384_133
+    21300268: spritemap-384_134
+    21300270: spritemap-384_135
+    21300272: spritemap-384_136
+    21300274: spritemap-384_137
+    21300276: spritemap-384_138
+    21300278: spritemap-384_139
+    21300280: spritemap-384_140
+    21300282: spritemap-384_141
+    21300284: spritemap-384_142
+    21300286: spritemap-384_143
+    21300288: spritemap-384_144
+    21300290: spritemap-384_145
+    21300292: spritemap-384_146
+    21300294: spritemap-384_147
+    21300296: spritemap-384_148
+    21300298: spritemap-384_149
+    21300300: spritemap-384_150
+    21300302: spritemap-384_151
+    21300304: spritemap-384_152
+    21300306: spritemap-384_153
+    21300308: spritemap-384_154
+    21300310: spritemap-384_155
+    21300312: spritemap-384_156
+    21300314: spritemap-384_157
+    21300316: spritemap-384_158
+    21300318: spritemap-384_159
+    21300320: spritemap-384_160
+    21300322: spritemap-384_161
+    21300324: spritemap-384_162
+    21300326: spritemap-384_163
+    21300328: spritemap-384_164
+    21300330: spritemap-384_165
+    21300332: spritemap-384_166
+    21300334: spritemap-384_167
+    21300336: spritemap-384_168
+    21300338: spritemap-384_169
+    21300340: spritemap-384_170
+    21300342: spritemap-384_171
+    21300344: spritemap-384_172
+    21300346: spritemap-384_173
+    21300348: spritemap-384_174
+    21300350: spritemap-384_175
+    21300352: spritemap-384_176
+    21300354: spritemap-384_177
+    21300356: spritemap-384_178
+    21300358: spritemap-384_179
+    21300360: spritemap-384_180
+    21300362: spritemap-384_181
+    21300364: spritemap-384_182
+    21300366: spritemap-384_183
+    21300368: spritemap-384_184
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritemap-384_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 220
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 206
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 206
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 206
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 206
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 230
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 230
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 218
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 220
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_27
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 204
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 206
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_37
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_38
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_39
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_40
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_42
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_43
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 192
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 180
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 180
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 200
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 200
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 200
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_53
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 200
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 198
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_55
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 180
+        width: 66
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 168
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_57
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_59
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_60
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 180
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 180
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 180
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_64
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_65
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 180
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_66
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_68
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_69
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_72
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 180
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_73
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 180
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_74
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 190
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_75
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 122
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_77
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 174
+        width: 80
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 122
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_81
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 146
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_82
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 146
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_83
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 146
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 146
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_85
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 150
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_86
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 146
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_87
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 146
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_88
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 146
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_89
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 146
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_90
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 122
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_92
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 98
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_93
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 122
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_96
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 122
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 122
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_98
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 122
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_99
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 98
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_100
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 98
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_101
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 98
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_102
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 98
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_104
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 98
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 98
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_108
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_112
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_114
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 80
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_119
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_121
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_123
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 80
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_124
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 80
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_125
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_126
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_127
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_128
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 54
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_129
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 54
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_130
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_131
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_132
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 54
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_133
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 54
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_134
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 54
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_135
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 52
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_136
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 50
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_137
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_138
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_139
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 26
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_140
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_141
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_142
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_143
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_144
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 50
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_145
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_147
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_148
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_149
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_151
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_153
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_155
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_157
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_158
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_159
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_160
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_164
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_165
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_166
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_167
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_168
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_169
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_170
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_171
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_172
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_173
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_174
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_175
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_176
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_177
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_178
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_179
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_180
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_181
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_182
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_183
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritemap-384_184
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
