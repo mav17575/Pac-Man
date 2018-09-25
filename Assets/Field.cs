@@ -9,7 +9,11 @@ public class Field : MonoBehaviour {
     public int[] field;
     public GameObject[] Sprites;
     public GameObject[] Visualf;
-
+    public Vector3 Size = Vector3.zero;
+    private float wh;
+    private float hh;
+    private float wr;
+    private float hr;
     private System.Random rand = new System.Random();
     void Start () {
         System.Array.Sort(Sprites, (x, y) => {
@@ -37,6 +41,38 @@ public class Field : MonoBehaviour {
             size /= ratio;
 
         Camera.main.orthographicSize = size*1.1f;
+        //print(ConvVecToGrid(Visualf[0].transform.localPosition));
+    }
+
+    public Vector3 ConvGridToVec(float x, float y)
+    {
+        float vx = (x - wh + transform.localPosition.x) *wr;
+        float vy = (-y + hh + transform.localPosition.y)*hr;
+        Vector3 v = new Vector3(vx+wr/2  , vy-hr/2 , 0);
+        return v;
+    }
+
+    public Vector3 ConvVecToGrid(Vector2 vec)
+    {
+        return new Vector3((vec.x+transform.localScale.x/2)/Size.x , (-vec.y + transform.localScale.y/2) / Size.y ,0);
+    }
+
+    public bool InField(Vector3 vec)
+    {
+        Vector3 vc = ConvVecToGrid(vec);
+        bool greaterz = Mathf.Min(vc.x, vc.y) >= 0;
+        if (!greaterz||(int)vc.x>TWidth-1.5f||(int)vc.y>THeight-1.5f) return false;
+
+        return true;
+    }
+
+    public bool IsValid(Vector3 vec)
+    {
+        Vector3 vc = ConvVecToGrid(vec);
+        bool greaterz = Mathf.Min(vc.x, vc.y) >= 0;
+        if (!greaterz || (int)vc.x > TWidth-1.5f || (int)vc.y > THeight-1.5f) return false;
+
+        return field[(int)vc.x+(int)vc.y*TWidth]==0;
     }
 
     public void NewField()
@@ -49,26 +85,29 @@ public class Field : MonoBehaviour {
         field = FieldGenerator.GenerateField(rand.Next(-1000, 1000), TWidth, THeight);
         float xr = size.x / px;
         float yr = size.y / px;
+        Size = new Vector3(xr,yr,0);
         transform.localScale = new Vector3(TWidth * xr, THeight * yr, 1);
-        Visualf = fillTiles(Sprites, field, TWidth, THeight, transform);
-      //  transform.localScale = new Vector3(TWidth * xr-xr/2, THeight * yr-yr/2, 1);
+        wh = (TWidth / 2.0f);
+        hh = (THeight / 2.0f);
+        wr = (transform.localScale.x / TWidth);
+        hr = (transform.localScale.y / THeight);
+        Visualf = fillTiles(Sprites, field, TWidth, THeight,Size, transform);
+        // transform.localScale = new Vector3(TWidth * xr-(xr/2), THeight * yr-(yr/2), 1);
     }
 
-    public static GameObject[] fillTiles(GameObject[] sprites, int[] field, int TWidth, int THeight, Transform transform)
+    public static GameObject[] fillTiles(GameObject[] sprites, int[] field, int TWidth, int THeight, Vector3 size, Transform transform)
     {
         GameObject[] visualf = new GameObject[TWidth*THeight];
         for (int y = 0; y < THeight; y++)
         {
             for (int x = 0; x < TWidth; x++)
             {
-                int i = x + y * TWidth;
+                int i = (int)(x + y * TWidth);
                 float wr = (transform.localScale.x / TWidth);
                 float hr = (transform.localScale.y / THeight);
                 // print((TWidth / 2) * (transform.localScale.x / TWidth));
-                //(wr/2)+  -((hr-2)/2)+
-                GameObject g = (GameObject)Instantiate(sprites[evaluateTile(field,x,y,TWidth,THeight)], new Vector3((x - (TWidth / 2)) * wr,(-y + (THeight / 2)) * hr, 0), Quaternion.identity);
-               // g.transform.parent = transform;
-
+                GameObject g = (GameObject)Instantiate(sprites[evaluateTile(field,(int)x,(int)y,TWidth,THeight)], new Vector3( (x - (TWidth / 2.0f)) * wr + (size.x/2), (-y + (THeight / 2.0f)) * hr -(size.y/2), 0), Quaternion.identity);
+                // g.transform.parent = transform;
                 visualf[i] = g;
             }
         }

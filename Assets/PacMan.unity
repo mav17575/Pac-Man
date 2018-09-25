@@ -532,13 +532,14 @@ MonoBehaviour:
   - {fileID: 1000012203113728, guid: 3daf4a30444345f428cadba3169c3dc6, type: 2}
   - {fileID: 1000010996362532, guid: 65bee6134366f8e40ac5abbf42db36ab, type: 2}
   Visualf: []
+  Size: {x: 0, y: 0, z: 0}
 --- !u!61 &1579168168
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579168162}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

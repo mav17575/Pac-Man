@@ -10,7 +10,6 @@ public class Move : MonoBehaviour {
     SpriteRenderer sr;
     Vector3 size;
     Rigidbody2D rb;
-
     // Use this for initialization
     void Start()
     {
@@ -33,23 +32,44 @@ public class Move : MonoBehaviour {
         //rb.MovePosition(p);
         // rb.MovePosition((Vector2)transform.position+(Vector2.right * size.x*velm));
         Vector3 nvel = Vector2.zero;
+        bool set = false;
+        anim.speed = 1;
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            dest = Vector2.right * size.x*velm;
+            set = true;
+            nvel = Vector2.right * size.x*velm;
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            dest = Vector2.left * size.x * velm;
+            set = true;
+            nvel = Vector2.left * size.x * velm;
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            dest = Vector2.up * size.y * velm;
+            set = true;
+            nvel = Vector2.up * size.y * velm;
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            dest = Vector2.down * size.y * velm;
+            set = true;
+            nvel = Vector2.down * size.y * velm;
         }
-        if(!invalid(dest))transform.Translate(dest);
+
+        if (set && valid(nvel))
+        {
+            dest = nvel;
+            transform.Translate(dest);
+        }
+        else if (valid(dest))
+        {
+            transform.Translate(dest);
+        }
+        else
+        {
+            //Animation darf nicht bei geschlossenem Mund halten
+            anim.speed = 0;
+        }
+
         Vector2 dir = dest - (Vector2)transform.position;
         GetComponent<Animator>().SetFloat("DirX", dest.x);
         GetComponent<Animator>().SetFloat("DirY", dest.y);
@@ -59,42 +79,17 @@ public class Move : MonoBehaviour {
         }
     }
 
-    bool invalid(Vector2 dir)
+    bool valid(Vector2 dir)
     {
-        int signx = System.Math.Sign(dir.x);
-        int signy = System.Math.Sign(dir.y);
-        //print(dir);
-        Vector2 s = new Vector2(signx * 13, signy * 13);
-        Vector2 lr = Vector2.zero;
-        Vector2 rr = Vector2.zero;
-        if (signx == 1)
-        {
-            lr = new Vector2(12.19238815543f, 12.19238815543f);
-            rr = new Vector2(12.19238815543f, -12.19238815543f);
-        }
-        else if (signx == -1)
-        {
-            lr = new Vector2(-12.19238815543f, 12.19238815543f);
-            rr = new Vector2(-12.19238815543f, -12.19238815543f);
-        }
-        if (signy == 1)
-        {
-            lr = new Vector2(12.19238815543f, 12.19238815543f);
-            rr = new Vector2(-12.19238815543f, 12.19238815543f);
-        }
-        else if (signy == -1)
-        {
-            lr = new Vector2(12.19238815543f, -12.19238815543f);
-            rr = new Vector2(-12.19238815543f, -12.19238815543f);
-        }
-        Vector2 pos = transform.position;
-        RaycastHit2D hit = Physics2D.Linecast(pos + s, pos);
-        RaycastHit2D hit1 = Physics2D.Linecast(pos + lr, pos);
-        RaycastHit2D hit2 = Physics2D.Linecast(pos + rr, pos);
-        Debug.DrawRay(transform.position,s);
-        Debug.DrawRay(transform.position, lr);
-        Debug.DrawRay(transform.position, rr);
-        //print(hit.collider.name!="Pac-Man" || hit1.collider.name != "Pac-Man" || hit2.collider.name != "Pac-Man");
-        return hit.collider.name != "Pac-Man" || hit1.collider.name != "Pac-Man" || hit2.collider.name != "Pac-Man";
+        //Strahlt 2 Linien aus
+        //Schaut, ob sich der Anfang oder das Ende von Pacman in Bloecken befinden.(mit etwas Versatz)
+        float x = System.Math.Sign(dir.x);
+        float y = System.Math.Sign(dir.y);
+        Vector3 pos = transform.localPosition;
+        Vector3 l = new Vector3(pos.x + ( (size.x / 2)+1.5f - (3f * Mathf.Abs(y))) *(x+y), pos.y +( (size.y / 2)+1.5f - (3f * Mathf.Abs(x))) *(x+y));
+        Vector3 r = new Vector3(pos.x + ( (size.x / 2)+1.5f - (3f * Mathf.Abs(y))) * (x-y), pos.y - ( (size.y / 2)+1.5f - (3f * Mathf.Abs(x))) * (x-y));
+        Debug.DrawLine(pos,l);
+        Debug.DrawLine(pos, r);
+        return field.IsValid(l) && field.IsValid(r);
     }
 }

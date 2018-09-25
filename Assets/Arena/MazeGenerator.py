@@ -305,3 +305,4 @@ if __name__ == "__main__":
         s = line[:14]
         print(s+s[::-1])
 
+#input("why?...");
