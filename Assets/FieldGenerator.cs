@@ -10,8 +10,8 @@ public class FieldGenerator{
     {
         int[] field = new int[twidth * theight];
         Random.InitState(seed);
-        string maze = run_cmd(Application.dataPath+"/Arena/MazeGenerator.py", "");
-      //  UnityEngine.Debug.Log(maze);
+        int hwidth = twidth / 2;
+        string maze = run_cmd(Application.dataPath+"/Arena/MazeGenerator.py", (hwidth+3)+" "+theight);
         maze = Regex.Replace(maze, @"\s+", "");
         for (int y=0;y<theight;y++)
         {

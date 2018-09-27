@@ -4,6 +4,7 @@ using System.Collections;
 public class Move : MonoBehaviour {
     //Muss nicht gesetzt werden. Richtet sich nach Tilegroesse.
     Vector2 dest = Vector2.zero;
+    Vector2 next = Vector2.zero;
     public float velm;
     public Field field;
     Animator anim;
@@ -31,13 +32,14 @@ public class Move : MonoBehaviour {
         //Vector2 p = Vector2.MoveTowards(transform.position, dest, 1);
         //rb.MovePosition(p);
         // rb.MovePosition((Vector2)transform.position+(Vector2.right * size.x*velm));
+        
         Vector3 nvel = Vector2.zero;
         bool set = false;
         anim.speed = 1;
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             set = true;
-            nvel = Vector2.right * size.x*velm;
+            nvel = Vector2.right * size.x * velm;
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -54,14 +56,23 @@ public class Move : MonoBehaviour {
             set = true;
             nvel = Vector2.down * size.y * velm;
         }
+        else
+        {
+            if (!set&&!next.Equals(Vector2.zero))
+            {
+                nvel = next;
+            }
+        }
 
         if (set && valid(nvel))
         {
             dest = nvel;
             transform.Translate(dest);
+            next = Vector2.zero;
         }
         else if (valid(dest))
         {
+            if (set) next = nvel;
             transform.Translate(dest);
         }
         else
