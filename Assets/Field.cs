@@ -6,6 +6,10 @@ public class Field : MonoBehaviour {
 
     public int TWidth;
     public int THeight;
+    public int GhostY;
+    public int GhostX;
+    public int GhostW;
+    public int GhostH;
     public int[] field;
     public GameObject[] Sprites;
     public GameObject[] Visualf;
@@ -21,8 +25,6 @@ public class Field : MonoBehaviour {
             int sy = y.GetComponent<SpriteValue>().type;
             return sx<sy ? -1:1;
         });
-
-        NewField();
     }
 	
 	// Update is called once per frame
@@ -44,11 +46,15 @@ public class Field : MonoBehaviour {
         //print(ConvVecToGrid(Visualf[0].transform.localPosition));
     }
 
-    public Vector3 ConvGridToVec(float x, float y)
+    public Vector3 ConvGridToVec(float x, float y, bool centered)
     {
         float vx = (x - wh + transform.localPosition.x) *wr;
         float vy = (-y + hh + transform.localPosition.y)*hr;
-        Vector3 v = new Vector3(vx+wr/2  , vy-hr/2 , 0);
+        Vector3 v = new Vector3(vx , vy , 0);
+        if (!centered)
+            v += new Vector3(wr / 2, -hr / 2,0);
+        else
+            v += new Vector3(+wr, -hr, 0);
         return v;
     }
 
@@ -82,7 +88,8 @@ public class Field : MonoBehaviour {
         SpriteRenderer b = Sprites[0].GetComponent<SpriteRenderer>();
         Vector3 size = b.bounds.size;
         float px = b.sprite.pixelsPerUnit;
-        field = FieldGenerator.GenerateField(rand.Next(-1000, 1000), TWidth, THeight);
+        GhostX = (TWidth/2) - (GhostW+1)/2;
+        field = FieldGenerator.GenerateField(rand.Next(-1000, 1000), TWidth, THeight, GhostY,GhostW,GhostH);
         float xr = size.x / px;
         float yr = size.y / px;
         Size = new Vector3(xr,yr,0);

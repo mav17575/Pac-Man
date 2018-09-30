@@ -265,7 +265,7 @@ def fillTemp(w,h,hbx,hby, gw, gh):
     s=""
     for y in range(h):
          for x in range(w):
-            if ((x>=hbx and (y==hby or y == hey)) or (x==hbx and y>=hby and y<=hey)) or (x == 0) or (y == 0 or y == h - 1):
+            if ((x>=hbx and x<=hbx+gw and (y==hby or y == hey)) or (x==hbx and y>=hby and y<=hey)) or (x == 0) or (y == 0 or y == h - 1):
                 s+="|"
             else: s+="."
          s+="\n"
@@ -275,7 +275,10 @@ if __name__ == "__main__":
     args=sys.argv
     width=int(args[1])
     height=int(args[2])
-    m =fillTemp(width,height,int(width-(width/2)),int(height/2),2,3)
+    gy = int(args[3])
+    gw = int(args[4])+1
+    gh = int(args[5])
+    m =fillTemp(width,height,width-gw,gy,gw,gh-1)
     tileMap = Map(width,height,m)
 
     # verbosity option (-v)
@@ -288,7 +291,7 @@ if __name__ == "__main__":
 
     # reflect the first 14 columns to print the map
     for line in str(tileMap).splitlines():
-        s = line[:width-3]
+        s = line[:width-1]
         print(s+s[::-1])
 
 #input("why?...");

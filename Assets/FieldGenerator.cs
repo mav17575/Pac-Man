@@ -6,12 +6,12 @@ using System.Text.RegularExpressions;
 
 public class FieldGenerator{
     private static System.Random Rand = new System.Random();
-    public static int[] GenerateField(int seed, int twidth, int theight)
+    public static int[] GenerateField(int seed, int twidth, int theight, int gy, int gw, int gh)
     {
         int[] field = new int[twidth * theight];
         Random.InitState(seed);
         int hwidth = twidth / 2;
-        string maze = run_cmd(Application.dataPath+"/Arena/MazeGenerator.py", (hwidth+3)+" "+theight);
+        string maze = run_cmd(Application.dataPath+"/Arena/MazeGenerator.py", (hwidth+1)+" "+theight+" "+gy+" "+(gw/2)+" "+gh);
         maze = Regex.Replace(maze, @"\s+", "");
         for (int y=0;y<theight;y++)
         {

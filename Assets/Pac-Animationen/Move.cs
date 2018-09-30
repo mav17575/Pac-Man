@@ -32,7 +32,6 @@ public class Move : MonoBehaviour {
         //Vector2 p = Vector2.MoveTowards(transform.position, dest, 1);
         //rb.MovePosition(p);
         // rb.MovePosition((Vector2)transform.position+(Vector2.right * size.x*velm));
-        
         Vector3 nvel = Vector2.zero;
         bool set = false;
         anim.speed = 1;
@@ -61,9 +60,10 @@ public class Move : MonoBehaviour {
             if (!set&&!next.Equals(Vector2.zero))
             {
                 nvel = next;
+                set = true;
             }
         }
-
+        print(nvel);
         if (set && valid(nvel))
         {
             dest = nvel;
