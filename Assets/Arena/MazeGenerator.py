@@ -1,4 +1,4 @@
-
+Belongs to https://shaunlebron.github.io/pacman-mazegen/
 # coding: utf-8
 
 # In[9]:
